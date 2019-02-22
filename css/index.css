@@ -206,6 +206,9 @@ header nav a {
 }
 @media ( max-width: 515px ) {
   .intro img {
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
     width: 100%;
   }
 }
@@ -305,7 +308,7 @@ footer {
     width: 100%;
     flex-wrap: wrap;
     justify-content: flex-start;
-    padding: 25px 30px;
+    padding: 25px;
   }
 }
 .home .walk .walk-text {

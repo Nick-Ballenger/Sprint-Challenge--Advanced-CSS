@@ -160,6 +160,38 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+header {
+  max-width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  background: #F6F6F6;
+}
+header h1 {
+  font-family: #454A59;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+  font-size: 4rem;
+  display: block;
+}
+header nav {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+header nav a {
+  font-family: #454A59;
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #5E6164;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
